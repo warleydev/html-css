@@ -1,0 +1,90 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+   background-color: #ccc;
+}
+
+.hero{
+   background-image: url(../imagens/bg-3.jpg);
+   height: 500px;
+   background-position: right center;
+   background-size: cover;
+   border-top: 1px solid transparent;
+}
+
+.hero-texto{
+   margin-top: 150px;
+   text-align: center;
+   color: #fff;
+}
+
+.hero h1{
+   text-transform: uppercase;
+   font-size: 46px;
+   text-shadow: 2px 3px 2px #333;
+}
+.hero nav li{
+   margin-left: 8px;
+   display: inline-block;
+
+}
+
+.hero nav ul{
+   text-align: right;
+   margin: 30px 50px 0 0;
+}
+
+.hero nav a{
+   font-size: 12px;
+   background-color: #00000033;
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+   border: 2px solid white;
+   padding: 15px;
+   letter-spacing: 2px;
+   transition: 0.25s;
+}
+
+.hero nav a:hover{
+   background-color: #00000077;
+   transition: 0.25s;
+}
+
+
+main{
+   width: 80%;
+   margin: auto;
+}
+
+.content-section{
+   background-color: white;
+   padding: 15px;
+   margin-top: 15px; 
+}
+
+.title-section{
+   background-color: #ddd;
+   padding: 8px;
+   margin-bottom: 6px;
+   border-bottom: 2px solid #aaa;
+}
+
+footer{
+   text-align: center;
+   background-color: #6b6c68;
+   height: 75px;
+   margin-top: 13px;
+}
+
+footer p{
+   line-height: 75px;
+   color: #fff;
+   text-shadow: 1px 1px 3px #000;
+}
+
