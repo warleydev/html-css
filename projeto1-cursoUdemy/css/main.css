@@ -23,10 +23,18 @@ body{
    color: #fff;
 }
 
-.hero h1{
+.hero-texto h1{
    text-transform: uppercase;
    font-size: 46px;
-   text-shadow: 2px 3px 2px #333;
+   text-shadow: 3px 3px 2px #333;
+}
+
+.hero-texto p{
+   background-color: rgba(0,0,0,.65);
+   display: inline-block;
+   padding: 10px;
+   border-bottom: 2px solid white;
+   margin-top: 50px;
 }
 .hero nav li{
    margin-left: 8px;
@@ -46,7 +54,7 @@ body{
    color: white;
    text-decoration: none;
    text-transform: uppercase;
-   border: 2px solid white;
+   border: 1px solid white;
    padding: 15px;
    letter-spacing: 2px;
    transition: 0.25s;
@@ -65,8 +73,29 @@ main{
 
 .content-section{
    background-color: white;
-   padding: 15px;
+   padding: 10px;
    margin-top: 15px; 
+   overflow: auto;
+}
+
+.content-section img{
+   width: 330px;
+}
+
+.content-section .card{
+   background-color: #444;
+   margin: 0 6px;
+   float: left;
+}
+
+.content-section .card p{
+   padding: 8px;
+   padding-bottom: 10px;
+   color: white;
+   font-size: 14px;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 1px;
 }
 
 .title-section{
