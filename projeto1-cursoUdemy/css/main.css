@@ -79,16 +79,15 @@ main{
 }
 
 .content-section img{
-   width: 330px;
+   width: 100%;
 }
 
-.content-section .card{
+.card{
+   width: 32%;
    background-color: #444;
-   margin: 0 6px;
    float: left;
 }
-
-.content-section .card p{
+.card p{
    padding: 8px;
    padding-bottom: 10px;
    color: white;
@@ -96,6 +95,10 @@ main{
    text-align: center;
    text-transform: uppercase;
    letter-spacing: 1px;
+}
+
+.card1, .card2{
+   margin-right: 2%;
 }
 
 .title-section{
